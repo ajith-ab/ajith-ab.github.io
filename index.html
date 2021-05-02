@@ -1,4 +1,1026 @@
 <!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ajith A B - Full Stack Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="assets/images/favicon.png" >
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <link rel="stylesheet" href="assets/css/colors/color1.css">
+
+</head>
+
 <body>
-    <h1>Demoooooo</h1>
+
+ <!-- Preloader -->
+ <div id="preloader">
+  <div class="loader">
+        <svg class="circle-loader" height="50" width="50">
+          <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+        </svg>
+    </div>
+</div><!--preloader end-->
+
+
+
+<!-- Main Container -->
+<main id="app" class="main-section">
+<!-- header navigation start -->
+<header id="navigation" class="root-sec white nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="nav-inner">
+          <nav class="primary-nav">
+            <div class="clearfix nav-wrapper">
+              <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="assets/images/logo.png" alt="">
+              </a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu">
+                <img src="assets/images/logo.png" alt="" height="30" width="150">
+              </i></a>
+               <ul class="right static-menu">
+
+                <li>
+                  <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                    <i style="visibility: hidden;" class="mdi-navigation-more-vert right">
+
+                    </i>
+                  </a>
+                </li>
+              </ul>
+             
+              <ul class="inline-menu side-nav" id="mobile-demo">
+
+
+              <!-- Mini Profile // only visible in Tab and Mobile -->
+                <li class="mobile-profile">
+                 <div class="profile-inner">
+                    <div class="pp-container">
+                        <img src="https://chat.whatsapp.com/invite/icon/CnHEyfgsxLEFRPQ1S1PO4o" alt="">
+                    </div>
+                    <h3>Ajith A B</h3>
+                    <h5>Full Stack Developer | B-Tech Student</h5>
+                  </div>
+                </li><!-- mini profile end-->
+
+
+                <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me</a>
+                </li>
+                <li><a href="#skill" data-section="#skill" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Skill</a>
+                </li>
+                 <li><a href="#experience" data-section="#experience" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Experience</a>
+                </li>
+                <li><a href="#education" data-section="#education" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Education</a>
+                </li>
+                <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                </li>
+
+                <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                </li>
+              </ul>
+
+
+
+            <!--   <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+
+                <li><a href="">Blog</a>
+                </li>
+                <li><a href="">404</a>
+                </li>
+                <li><a href="">Share</a>
+                </li>
+              </ul> -->
+
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .container end -->
+</header>
+
+
+<!-- Home Section start -->
+<section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
+<div class="sec-overlay">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <div class="home-inner">
+            <div class="center-align home-content" >
+              <h1 class="home-title">HI! I'm <span>Ajith A B</span></h1>
+
+              <h2 class="home-subtitle">
+                  <!-- <img src="/assets/images/logo.png" alt="" height="30" width="150"> -->
+                Full Stack Developer  |  B-Tech Student  </h2>
+              <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i>
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .container end -->
+  <div class="section-call-to-area">
+    <div class="container">
+      <div class="row">
+        <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+          <i class="mdi-navigation-expand-more"></i>
+        </a>
+      </div>
+    </div>
+    <!-- .container end -->
+  </div>
+</div>
+</section>
+<!-- #home Section end -->
+
+<!-- About Section start -->
+<section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+<div class="container">
+  <div class="row">
+    <div class="clearfix about-inner">
+
+      <div class="col-sm-12 col-md-4">
+        <div class="person-about">
+          <h3 class="about-subtitle">My Story</h3>
+          <p>Hello, I’m a UI/UX Designer &amp; "I'm a student at PRS College of Engineering and Technology.I am also a Full stack developer from Thiruvananthapuram, Kerala available for hire in freelance projects.& I Came from an upper middle class family I am modern thinker. <br />
+          I enjoy life to the fullest.  I love code, coffee, candy and spending time with my friends.</p>
+          <a target="_blank" href="https://www.mashupresume.com/r/ajithab" class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a>
+        </div>
+      </div>
+      <!-- about me description -->
+
+      <div class="col-sm-6 col-md-4">
+        <div class="person-img wow fadeIn">
+          <img class="z-depth-1" src="https://chat.whatsapp.com/invite/icon/CnHEyfgsxLEFRPQ1S1PO4o" alt="">
+        </div>
+      </div>
+      <!-- about me image -->
+
+      <div class="col-sm-6 col-md-4">
+        <div class="person-info">
+          <h3 class="about-subtitle">Personal Information</h3>
+          <h5><span>Name :</span> Ajith A B</h5>
+          <h5><span>Age :</span> 22 Years</h5>
+          <h5><span>Phone :</span> +91 8590846781</h5>
+          <h5><span>Email :</span> contact@ajithab.com</h5>
+          <h5><span>Address :</span> Kerala, India</h5>
+        </div>
+
+        <div class="about-social">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/ajith4ab" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ajith_a_b" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/106092134008686606495" class="btn-floating waves-effect waves-light white"><i class="fa fa-google-plus"></i></a>
+             </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ajith-ab-06030b12a" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/ajith-ab" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- about me info -->
+
+    </div>
+  </div>
+</div>
+<!-- .container end -->
+</section>
+<!-- #about Section end -->
+
+
+
+<!-- Resume Section start -->
+
+<section id="skill" class="root-sec white skill-wrap">
+<div class="sec-overlay">
+  <div class="container">
+    <div class="row">
+      <div class="clearfix skill-inner">
+        <div class="col-sm-12 col-md-3">
+          <div class="skill-left">
+            <h2 class="title">Skills</h2>
+            </div>
+        </div>
+        <!-- skills container -->
+        <div class="col-sm-12 col-md-6 col-lg-6 col-md-offset-1">
+          <div class="skill-right">
+            <div id="skillSlider" class="clearfix skill-graph">
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="60%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">Angular</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="60%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">React js</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="80%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">UI/UX</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">80%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="60%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">React Native</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="70%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">Ionic</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">70%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="80%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">Codeignater</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">80%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="30%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">Python</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">30%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+              <!-- single skill -->
+              <div class="single-skill">
+                <div class="after-li">
+                  <div class="singel-hr">
+                    <div class="singel-hr-inner" data-height="60%">
+                      <div class="skill-visiable">
+                        <span class="skill-title">Angular</span>
+                        <div class="hr-wrap">
+                          <div class="hrc"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="skill-count">60%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /single skill-->
+
+
+                  </div>
+                </div>
+              </div>
+              <!-- /skills container -->
+            </div>
+          </div>
+          <div class="btn-wrapp skl-ctrl">
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="mdi-navigation-chevron-left "></i></a>
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="mdi-navigation-chevron-right "></i></a>
+          </div>
+        </div>
+      </div>
+        <!-- .container end -->
+      </section>
+
+      <section id="experience" class="root-sec padd-tb-120 brand-bg experience-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="experience-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head experience-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">Experience</h2>
+                      </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="experienceSlider" class="clearfix card-element-wrapper">
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2016 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="./assets/images/keralamirror.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web/App Dveloper<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>keralamirror.in</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web/App Dveloper<i class="mdi-navigation-close right"></i></span>
+                                  <p>keralamirror.in</p>
+                                </div>
+                                <p class="rev-content">
+                                  kerala Mirror was started with the sole intention of serving the larger online community of users in India – the non-English speaking users. By 2021, India will have 536 million Indian language users & 200 million English users.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">March 2019 - Present </h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="./assets/images/cclif.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>cclif.in</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-close right"></i></span>
+                                  <p>cclif.in</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">December 2018 </h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="./assets/images/ksgny.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>ksgny.com</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-close right"></i></span>
+                                  <p>ksgny.com</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">June 2018 </h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="./assets/images/kalavedi.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Kalaveditv.com</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Kalaveditv.com</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">June 2017 </h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="./assets/images/nedumangad.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>nedumangadonline.co.in</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-close right"></i></span>
+                                  <p>nedumangadonline.co.in</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp exp-ctrl">
+                <a class="btn-floating waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+                <a class="btn-floating waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="education-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head education-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">education</h2>
+                     </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="educationSlider" class="clearfix card-element-wrapper">
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2015 - 2019</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="./assets/images/prscet.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">B - Tech<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Ktu University</p>
+                              </div>
+                              <!-- Reveal content-->
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">B - Tech<i class="mdi-navigation-close right"></i></span>
+                                  <p>Ktu University</p>
+                                </div>
+                                <p class="rev-content">
+                                 I Study My B-tech College Life in PRS College of Engineering and Technology
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education end -->
+
+                          <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2016 May</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="./assets/images/mashup.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web Development<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Mashup Stack</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web Development<i class="mdi-navigation-close right"></i></span>
+                                  <p>Mashup Stack</p>
+                                </div>
+                                <p class="rev-content">
+                                 I Attend 2 day Web Development Workshop on Mashup Stack.
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2013 - 2015</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="./assets/images/dvm.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Higher Secondary<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Kerala State</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">A Level<i class="mdi-navigation-close right"></i></span>
+                                  <p>Kerala State</p>
+                                </div>
+                                <p class="rev-content">
+                                 I Study my Higher Secondory School Life On D.V.M.N.N.M H.S.S Maranalloor.
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp edu-ctrl">
+                <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-left"><i class="mdi-navigation-chevron-left"></i></a>
+                <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-right"><i class="mdi-navigation-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- #resume Section end -->
+
+    <!-- Portfolio Section start -->
+    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
+      <div class="padd-tb-120 brand-bg portfolio-top">
+        <div class="portfolio-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="title">PORTFOLIO</h2>
+                <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
+                  <li class="active"><a href="#" data-target="*">All</a>
+                  </li>
+                  <li><a href="#" data-target=".web">Web Development</a>
+                  </li>
+                  <li><a href="#" data-target=".app">App Development</a>
+                  </li> 
+                  <li><a href="#" data-target=".upcomming">Upcomming</a>
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+      </div>
+      <div id="portfolioModal" class="modal white">
+        <div class="model-img" style="margin-bottom: 0px;"></div>
+        <div class="modal-content" style="padding-bottom: 0px;">
+          <h2 class="title">title.</h2>
+          <p class="m-content">Descriptions.</p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="http://tinyurl.com/jdymnat" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
+          <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
+        </div>
+      </div>
+
+      <div class="portfolio-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="clearfix protfolio-item" id="protfolio-msnry">
+              
+              <!-- Single Portfolio-->
+                <li class="single-port-item web">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="./assets/images/webkeralamirror.png" data-title="Kerala Mirror" data-content="It is a Online News Portal." data-demo-link="http://keralamirror.in"> <!-- Portfolio pop-up content-->
+                    <div class="protfolio-image">
+                      <img src="./assets/images/webkeralamirror.png" alt="portfolio"> <!-- portfolio thumbnail-->
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Kerala Mirror</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item upcomming">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="./assets/images/webcclif.png" data-title="CCLIF" data-content="It is a Educational Website" data-demo-link="http://cclif.in/">
+                    <div class="protfolio-image">
+                      <img src="./assets/images/webcclif.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">CCLIF</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item web">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="./assets/images/webksgny.png" data-title="KSGNY" data-content="It is a Group Of community." data-demo-link="http://ksgny.com/">
+                    <div class="protfolio-image">
+                      <img src="./assets/images/webksgny.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">KSGNY</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item web">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="./assets/images/webkalavedi.png" data-title="Kalavedi TV" data-content="It is a Web app related to Tv" data-demo-link="http://kalaveditv.com/">
+                    <div class="protfolio-image">
+                      <img src="./assets/images/webkalavedi.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Kalavedi TV</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item web">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="./assets/images/webnedumangad.png" data-title="Nedumangad Online" data-content="It is a web News Portal Website." data-demo-link="http://www.nedumangadonline.co.in/">
+                    <div class="protfolio-image">
+                      <img src="./assets/images/webnedumangad.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Nedumangad Online</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                 <!-- Single Portfolio-->
+                 <li class="single-port-item app">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="./assets/images/keralamirror.png" data-title="Kerala Mirror App" data-content="It is a Application of News Portal." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="./assets/images/keralamirror.png" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">kerala Mirror App</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+              </ul>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #portfolio Section end -->
+
+    
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec brand-bg padd-tb-120 contact-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="contact-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head contact-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Contact</h2>
+                   
+                  </div>
+                </div> <!-- contact text end -->
+
+                <div class="clearfix contact-form">
+<style>
+.formerr{
+  color: red;
+}
+
+</style>
+                 
+
+                <!-- Contact Form start -->
+                  <div class="col-sm-8">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form action="https://ajithab123.000webhostapp.com" method="post" id="contact_form"  novalidate>
+                        <div class="input-field">
+                          <input id="name" type="text" name="name" class="validate input-box">
+                          <label for="contact_name" class="input-label">Name</label>
+                          <div id="ename" class="formerr"></div>
+                        </div>
+                        <div class="input-field">
+                          <input id="email" type="email" name="email" class="validate input-box">
+                          <label for="email" class="input-label">Email</label>
+                          <div id="eemail" class="formerr"></div>
+                        </div>
+                        <div class="input-field">
+                          <input id="subject" type="text" name="subject" class="validate input-box">
+                          <label for="subject" class="input-label">Subject</label>
+                          <div id="esubject" class="formerr"></div>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea id="message" name="message" class="validate materialize-textarea" style="height: 22px;"></textarea>
+                          <label for="textarea1" class="input-label">Message</label>
+                          <div id="emessage" class="formerr"></div>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button type="submit" class="left waves-effect btn-flat brand-text submit-btn">send message</button>
+                          <div id="loader" class="right form-loader-area">
+                            <svg class="circular size-20" height="20" width="20">
+                              <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                            </svg>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+
+
+
+                  <script type="text/javascript">
+                  
+                    var form = $('#contact_form');
+
+                
+                    $(form).submit(function(event) {
+
+                     $('#loader').show();
+
+                    event.preventDefault();
+
+                    var formData = $(form).serialize();
+                    $.ajax({
+                      type: 'POST',
+                      url: $(form).attr('action'),
+                      data: formData
+                    })
+                    .done(function(response) {
+                      $('#loader').hide();
+                      alert(JSON.stringify(response));
+                        if(response.error == 'true'){
+                           
+                          if(response.name != ''){
+                            $('#ename').html(response.name);
+                            $('#name').addClass('invalid');
+                          }
+                          if(response.email != ''){
+                            $('#eemail').html(response.email);
+                            $('#email').addClass('invalid');
+                          }
+                          if(response.subject != ''){
+                            $('#esubject').html(response.subject);
+                            $('#subject').addClass('invalid');
+                          }
+                          if(response.message != ''){
+                            $('#emessage').html(response.message);
+                            $('#message').addClass('invalid');
+                          }
+
+                        }
+                        else{
+
+                            $('#name').val('');
+                            $('#email').val('');
+                            $('#subject').val('');
+                            $('#message').val('');
+                            swal("Thanks!", "Your message has been sent successfully!", "success");
+
+                        }
+                        
+
+
+                      
+                      
+                    })
+                    .fail(function(data) {
+                      // Make sure that the formMessages div has the 'error' class.
+                      $(formMessages).removeClass('alert-success');
+                      $(formMessages).addClass('alert-danger');
+
+                      // Set the message text.
+                      if (data.responseText !== '') {
+                        $(formMessages).text(data.responseText);
+                      } else {
+                        $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                      }
+                    });
+
+               
+
+
+
+                    });
+
+
+
+                  </script>
+
+
+
+
+
+
+
+
+
+
+                   <!-- Map Start -->
+                   <div class="col-sm-4">
+                    <div class="card-panel " style="color:black;">
+                   <strong style="font-size: 15px;font-weight:bold">Address:</strong>  Trivandrum, Kerala India
+                   <br> <hr>  
+                    <strong style="font-size: 15px;font-weight:bold">Email:</strong> <a href="mailto:ajith4ab@gmail.com">ajith4ab@gmail.com</a>
+                  <hr>  
+                  <strong style="font-size: 15px;font-weight:bold">Phone:</strong> <a href="tel:+918590846781">+91 8590846781</a>
+                  <hr>  
+                    </div>
+                  </div> <!-- Map end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+      <div class="section-call-to-area">
+        <div class="container">
+          <div class="row">
+            <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact Section end -->
+
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="https://www.facebook.com/ajith4ab" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/ajith-ab-06030b12a" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li><a href="https://twitter.com/ajith_a_b" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://plus.google.com/106092134008686606495" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li><a href="https://github.com/ajith-ab" class="tooltips tooltipped github" data-position="top" data-delay="50" data-tooltip="Github"><i class="fa fa-github"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>ajithab.com &copy; All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
+  </main>
+  <!-- Main Container end-->
+
+
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/detectmobilebrowser.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="assets/libs/jwplayer/jwplayer.js"></script>
+  <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+  <script src="assets/js/snow.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
+</html>
